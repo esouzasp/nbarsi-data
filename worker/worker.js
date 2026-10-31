@@ -5,9 +5,11 @@
  e devolve o contexto em Markdown (padrão) ou JSON. Não guarda a chave nem os dados.
 
  Endereços:
-   /contexto?chave=SUA_CHAVE                 Markdown
+   /contexto?chave=SUA_CHAVE                 HTML com o texto (padrão; melhor para ChatGPT e Gemini)
+   /contexto?chave=SUA_CHAVE&formato=txt     texto puro
+   /contexto?chave=SUA_CHAVE&formato=md      Markdown
    /contexto?chave=SUA_CHAVE&formato=json    JSON
-   /k/SUA_CHAVE/contexto                     Markdown (para quem preferir a chave no caminho)
+   /k/SUA_CHAVE/contexto                     HTML (para quem preferir a chave no caminho)
    /k/SUA_CHAVE/contexto.json                JSON
 */
 const SOURCE = "https://raw.githubusercontent.com/esouzasp/nbarsi-data/main/data/contexto.enc.json";
@@ -44,8 +46,15 @@ export default {
       return reply("chave incorreta", 401);
     }
     const bundle = JSON.parse(text);
-    const wantJson = url.searchParams.get("formato") === "json" || path.endsWith(".json");
-    if (wantJson) return reply(JSON.stringify(bundle.json, null, 1), 200, "application/json; charset=utf-8");
-    return reply(bundle.md, 200, "text/markdown; charset=utf-8");
+    const fmt = url.searchParams.get("formato") || (path.endsWith(".json") ? "json" : path.endsWith(".md") ? "md" : "html");
+    if (fmt === "json") return reply(JSON.stringify(bundle.json, null, 1), 200, "application/json; charset=utf-8");
+    if (fmt === "md") return reply(bundle.md, 200, "text/markdown; charset=utf-8");
+    if (fmt === "txt") return reply(bundle.md, 200, "text/plain; charset=utf-8");
+    // padrão: HTML simples (o formato que as ferramentas de leitura do ChatGPT e do Gemini processam melhor)
+    const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    const page = `<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>nBarsi — contexto para análise</title></head>
+<body><pre style="white-space:pre-wrap;font:14px/1.45 ui-monospace,Menlo,Consolas,monospace;max-width:1100px;margin:16px auto;padding:0 12px">${esc(bundle.md)}</pre></body></html>`;
+    return reply(page, 200, "text/html; charset=utf-8");
   }
 };
