@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31T10:05:21+00:00",
+ "updated_at": "2026-10-31T10:15:58+00:00",
  "summary": {
   "date": "2026-10-31",
   "text": "Semana dominada pela reeleição de Lula: Ibovespa caiu 18% e o dólar subiu 9%, com apostas de Selic parada no Copom de 4/11. Negativo para BRSR6, DIRR3, TGMA3 e CMIG4 (governador eleito promete reduzir tarifa). Em CSMG3, a Equatorial rescindiu o acordo de acionistas com Minas Gerais (negativo, nível alto). TIMS3: a Poste Italiane sinaliza venda do controle (incerto). ITUB4 segue preferido pelos bancos; WEGE3 ganha com o dólar e com data centers. CXSE3 recebe multa de R$ 750 mi do Banco Pan (positivo). VIVT3 negocia a Vero. Petróleo a US$ 117 eleva o risco de inflação."
@@ -835,6 +835,825 @@
    ],
    "why": "Apresentação institucional do 2T26; sem informação nova.",
    "at": "2026-10-31"
+  },
+  "cvm-b1044dfc99c9": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Energização da conversora Garabi 2 (Saíra) passa a gerar receita anual permitida.",
+   "at": "2026-10-31"
+  },
+  "cvm-1a4e268d087b": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ABCB4"
+   ],
+   "why": "Período de subscrição de sobras do aumento de capital; etapa operacional.",
+   "at": "2026-10-31"
+  },
+  "cvm-aa57cd67d506": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Novo programa de recompra reduz ações em circulação e eleva provento por ação.",
+   "at": "2026-10-31"
+  },
+  "cvm-1ca7008042a2": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Versão em inglês do programa de recompra de ações.",
+   "at": "2026-10-31"
+  },
+  "cvm-ee0a1812658b": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "S&P eleva os ratings da Cemig; reduz custo de captação.",
+   "at": "2026-10-31"
+  },
+  "cvm-d00074f9c52a": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Entrada em operação de Tangará adiciona receita de transmissão.",
+   "at": "2026-10-31"
+  },
+  "cvm-2fe9a2501314": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Autorização preliminar para banco múltiplo nos EUA; expansão internacional de pequeno porte.",
+   "at": "2026-10-31"
+  },
+  "cvm-db6976a15474": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "VIVT3"
+   ],
+   "why": "Deliberação de JCP mantém fluxo regular de proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-f8c45a93594f": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Apresentação do 2T26; efeito veio do resultado já divulgado.",
+   "at": "2026-10-31"
+  },
+  "cvm-28bb94a0ca81": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Apresentação do 2T26; efeito veio do resultado já divulgado.",
+   "at": "2026-10-31"
+  },
+  "cvm-b6208b1bddac": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Apresentação do 1S26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-157293570086": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "TGMA3"
+   ],
+   "why": "Declaração de dividendos e JCP (R$ 1,14 por ação noticiado) mantém DY elevado.",
+   "at": "2026-10-31"
+  },
+  "cvm-c623b1f956c1": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "EGIE3"
+   ],
+   "why": "Apresentação institucional atualizada; sem informação nova.",
+   "at": "2026-10-31"
+  },
+  "cvm-e53e1b4dd390": {
+   "dir": "neg",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "BRSR6"
+   ],
+   "why": "Banrisul revisa para baixo o guidance de 2026, expondo desafios operacionais; ação marcou fundo na semana.",
+   "at": "2026-10-31",
+   "setores": {
+    "bancos": "-"
+   }
+  },
+  "cvm-4f4c73056e88": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BRSR6"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-d8f4015ba704": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Conclusão da compra de cinco ativos de transmissão amplia receita, com mais dívida.",
+   "at": "2026-10-31",
+   "setores": {
+    "eletricas": "+"
+   }
+  },
+  "cvm-687ae5786043": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "DIRR3"
+   ],
+   "why": "Apresentação do 2T26, resultado considerado misto pela imprensa.",
+   "at": "2026-10-31"
+  },
+  "cvm-bd1c715520c6": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BRSR6"
+   ],
+   "why": "Novo diretor de desenvolvimento; mudança de gestão pontual.",
+   "at": "2026-10-31"
+  },
+  "cvm-a3882245e52f": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Pagamento de dividendos intercalares e JCP mantém o fluxo de proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-e2f1340501e3": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "DIRR3"
+   ],
+   "why": "Novo programa de recompra sinaliza ação descontada.",
+   "at": "2026-10-31"
+  },
+  "cvm-320d14af5cdd": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-5a5f0de80b8c": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "PSSA3"
+   ],
+   "why": "Dados setoriais Susep de junho; acompanhamento de prêmios.",
+   "at": "2026-10-31",
+   "setores": {
+    "seguros": "+"
+   }
+  },
+  "cvm-54a5278847c7": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TGMA3"
+   ],
+   "why": "Apresentação sobre a compra da Transcopa; detalha a aquisição.",
+   "at": "2026-10-31"
+  },
+  "cvm-4c9105492b1a": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "EGIE3"
+   ],
+   "why": "Elevação do rating global (IDR) reduz custo de dívida.",
+   "at": "2026-10-31"
+  },
+  "cvm-9b68f3cc78a8": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Licença de instalação de Juruá; avanço normal de obra.",
+   "at": "2026-10-31"
+  },
+  "cvm-54a0ceca8f56": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Desempenho mensal de junho; prévia do resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-7b0bb814e03a": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Desempenho mensal de junho; prévia do resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-83d6d5c452d3": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Dividendos do 2T26 mantêm payout alto da Caixa Seguridade.",
+   "at": "2026-10-31"
+  },
+  "cvm-340d84e68840": {
+   "dir": "neutro",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "TGMA3"
+   ],
+   "why": "Contrato de compra da Transcopa amplia operação logística; usa caixa que poderia ir a proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-199d03ebedce": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TGMA3"
+   ],
+   "why": "Versão duplicada do fato relevante sobre a compra da Transcopa.",
+   "at": "2026-10-31"
+  },
+  "cvm-850fc6e426b6": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "PSSA3"
+   ],
+   "why": "Teleconferência do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-ead4c8c4fba1": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "PSSA3"
+   ],
+   "why": "Porto revisa guidance de 2026 e reduz a alíquota de imposto esperada para 24%–28%, favorecendo o lucro.",
+   "at": "2026-10-31"
+  },
+  "cvm-1437391150b2": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CPLE3"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-396ca4896399": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CPLE3"
+   ],
+   "why": "Conclusão da venda de participação em usina; reciclagem de capital já anunciada.",
+   "at": "2026-10-31"
+  },
+  "cvm-8a928407ce89": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "EGIE3"
+   ],
+   "why": "Declaração de dividendos do 2T26 mantém o fluxo de proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-9f11c000a951": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "EGIE3"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-b25dc35e427d": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Decisão do CADE sobre operação ligada à privatização; etapa regulatória.",
+   "at": "2026-10-31"
+  },
+  "cvm-9c8e6494b0c5": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Informações do resultado do 2T26; lucro de R$ 12,4 bi em linha.",
+   "at": "2026-10-31"
+  },
+  "cvm-20efb325af80": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ISAE4"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-3f05f2041fc9": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Energização de Ananaí adiciona receita de transmissão.",
+   "at": "2026-10-31"
+  },
+  "cvm-e7c3d8fad6e6": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Energização parcial de Tangará antecipa parte da receita.",
+   "at": "2026-10-31"
+  },
+  "cvm-beb0280629ca": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-6f5f6162fad3": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Data de pagamento de JCP; fluxo regular.",
+   "at": "2026-10-31"
+  },
+  "cvm-7f17cdf62efc": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Relatório Pilar 3 de risco e capital; regulatório.",
+   "at": "2026-10-31"
+  },
+  "cvm-046d39f2cab1": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Informações do resultado do 2T26 (versão duplicada).",
+   "at": "2026-10-31"
+  },
+  "cvm-c60c22d7962e": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Press release do 2T26; lucro em linha com o esperado.",
+   "at": "2026-10-31"
+  },
+  "cvm-8feecac999e3": {
+   "dir": "neg",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Itaú corta o guidance de 2026 de receitas de serviços e seguros; lucro segue em linha.",
+   "at": "2026-10-31"
+  },
+  "cvm-540a020341a5": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "TGMA3"
+   ],
+   "why": "Declaração de dividendos e JCP do 2T26 mantém DY elevado.",
+   "at": "2026-10-31"
+  },
+  "cvm-98a5426f8c7f": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TGMA3"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-b361bc4229f2": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Declaração de dividendos do 1S26 mantém payout alto.",
+   "at": "2026-10-31"
+  },
+  "cvm-99aeb8408acf": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Relatório do 2T26 em inglês; material de apoio.",
+   "at": "2026-10-31"
+  },
+  "cvm-4ddbce921dcc": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "EGIE3"
+   ],
+   "why": "Incorporação de subsidiária integral; simplificação societária.",
+   "at": "2026-10-31"
+  },
+  "cvm-79d0f95bd0b4": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "VIVT3"
+   ],
+   "why": "Incorporação da Fibrasil consolida a rede de fibra e gera sinergias modestas.",
+   "at": "2026-10-31",
+   "setores": {
+    "telecom": "+"
+   }
+  },
+  "cvm-91d6128fa4b8": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ISAE4"
+   ],
+   "why": "Conclusão do descruzamento de participações nas IEs Madeira e Garanhuns; reorganização de portfólio.",
+   "at": "2026-10-31"
+  },
+  "cvm-898d0ae30b9a": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Comunicado sobre o Itaú Colômbia; operação pequena no consolidado.",
+   "at": "2026-10-31"
+  },
+  "cvm-80aa7b2dedca": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Transcrição da teleconferência do 2T26; sem informação nova.",
+   "at": "2026-10-31"
+  },
+  "cvm-62d1a40a7693": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Contratos de concessão com Contagem e Betim renovam dois mercados grandes da Copasa.",
+   "at": "2026-10-31",
+   "setores": {
+    "saneamento": "+"
+   }
+  },
+  "cvm-0e740fefbd05": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Energização do reforço de ATE adiciona receita.",
+   "at": "2026-10-31"
+  },
+  "cvm-53ed2278b63c": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Esclarecimento à CVM/B3 sobre notícia; resposta protocolar.",
+   "at": "2026-10-31"
+  },
+  "cvm-54d1f19b019c": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CPLE3"
+   ],
+   "why": "Mercado faturado da distribuidora cresce 7,2% no 2T.",
+   "at": "2026-10-31"
+  },
+  "cvm-268da05d5d41": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-9f4eb4b28bee": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Aporte em subsidiárias integrais; movimento interno de capital.",
+   "at": "2026-10-31"
+  },
+  "cvm-226cfc979321": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "VIVT3"
+   ],
+   "why": "Apresentação do 2T26; material de apoio ao resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-a70e0ecbc3cf": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "VIVT3"
+   ],
+   "why": "Política de direitos humanos; governança sem efeito financeiro.",
+   "at": "2026-10-31"
+  },
+  "cvm-30dc57ae2ef6": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3",
+    "EGIE3"
+   ],
+   "why": "Contrato para fornecer equipamentos à expansão de usina da Engie; reforça carteira de pedidos da WEG.",
+   "at": "2026-10-31"
+  },
+  "cvm-3f34b2b80ecd": {
+   "dir": "neg",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "ISAE4"
+   ],
+   "why": "Follow-on de R$ 1,2 bi precificado; ação caiu cerca de 5% com diluição e dúvida sobre dividendos.",
+   "at": "2026-10-31"
+  },
+  "cvm-356c77d6dc66": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Apresentação para investidores; sem informação nova.",
+   "at": "2026-10-31"
+  },
+  "cvm-e89e66456dd4": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "PSSA3"
+   ],
+   "why": "Dados setoriais de junho; acompanhamento de prêmios.",
+   "at": "2026-10-31",
+   "setores": {
+    "seguros": "+"
+   }
+  },
+  "cvm-bb3f6a684205": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Desempenho mensal de maio; prévia do resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-41a52cc9c6b4": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Desempenho mensal de maio; prévia do resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-07f132fa4cce": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Apresentação da teleconferência do 2T26; material de apoio.",
+   "at": "2026-10-31"
+  },
+  "cvm-2069b4c882c5": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Cronograma de divulgação do 2T26; só agenda.",
+   "at": "2026-10-31"
+  },
+  "cvm-b2d3bd4056fe": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "VIVT3"
+   ],
+   "why": "Declaração de JCP; fluxo regular de proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-1c6530b61a28": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Processo competitivo para parceria em seguro prestamista; pode renovar receita futura.",
+   "at": "2026-10-31"
+  },
+  "cvm-e91dbfb6f397": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CPLE3"
+   ],
+   "why": "Mercado faturado da distribuidora cresce 7,2% no 2T (versão duplicada).",
+   "at": "2026-10-31"
+  },
+  "cvm-e61f472291b7": {
+   "dir": "neg",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "ISAE4"
+   ],
+   "why": "Lançamento de oferta primária de até R$ 1,3 bi para reduzir dívida dilui acionistas.",
+   "at": "2026-10-31"
+  },
+  "cvm-64eab7d2f793": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Período de silêncio antes do 2T26; só agenda.",
+   "at": "2026-10-31"
+  },
+  "cvm-cc11a49e16cf": {
+   "dir": "neutro",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CPLE3"
+   ],
+   "why": "Eleva alavancagem-alvo para 2,9x e mantém payout mínimo de 75%; mais dívida, proventos preservados.",
+   "at": "2026-10-31"
+  },
+  "cvm-407fb863e2fc": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "AGE ratifica compra de cinco ativos de transmissão; etapa formal.",
+   "at": "2026-10-31"
+  },
+  "cvm-b7e8a26ecb6b": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Investidor reduz participação relevante; fluxo pontual.",
+   "at": "2026-10-31"
   }
  },
  "inflections": {
@@ -915,6 +1734,66 @@
     }
    ],
    "at": "2026-10-31"
+  },
+  "CSMG3|2026-07-10": {
+   "why": "Topo antes da oferta de privatização: governo mineiro alterou a oferta e a ação caiu mais de 7%; as ações foram vendidas a R$ 49,03.",
+   "sources": [
+    {
+     "title": "Copasa (CSMG3) recua após governo rever oferta de privatização (Suno)",
+     "url": "https://www.suno.com.br/noticias/?p=653230"
+    },
+    {
+     "title": "Copasa (CSMG3) cai 7,08% após mudanças na privatização (Acionista)",
+     "url": "https://acionista.com.br/copasa-csmg3-cai-708-apos-mudancas-na-privatizacao/"
+    },
+    {
+     "title": "Privatização da Copasa (CSMG3) movimenta R$ 8,3 bilhões com venda de ações a R$ 49,03 (Money Times)",
+     "url": "https://www.moneytimes.com.br/privatizacao-da-copasa-csmg3-movimenta-r-83-bilhoes-com-venda-de-acoes-a-r-4903-diz-valor/"
+    }
+   ],
+   "at": "2026-10-31"
+  },
+  "EGIE3|2026-04-17": {
+   "why": "Sem causa específica encontrada; movimento acompanhou o mercado: o Ibovespa marcou recorde perto de 200 mil pontos em abril e perdeu cerca de 30 mil pontos até maio.",
+   "sources": [
+    {
+     "title": "Pior do mundo em dólares: Ibovespa perde 30 mil pontos desde o recorde em abril (Investidor10)",
+     "url": "https://investidor10.com.br/amp/noticias/pior-do-mundo-em-dolares-ibovespa-perde-30-mil-pontos-desde-o-recorde-em-abril-120796/"
+    },
+    {
+     "title": "Ibovespa perde fôlego após flertar com os 200 mil pontos e entra em fase de ajuste (Jornal do Comércio)",
+     "url": "https://www.jornaldocomercio.com/economia/2026/05/1247302-ibovespa-perde-folego-apos-flertar-com-os-200-mil-pontos-e-entra-em-fase-de-ajuste.html"
+    }
+   ],
+   "at": "2026-10-31"
+  },
+  "TIMS3|2026-04-10": {
+   "why": "Sem causa específica encontrada; movimento acompanhou o mercado: topo junto ao recorde do Ibovespa em abril, seguido de correção ampla em maio.",
+   "sources": [
+    {
+     "title": "Pior do mundo em dólares: Ibovespa perde 30 mil pontos desde o recorde em abril (Investidor10)",
+     "url": "https://investidor10.com.br/amp/noticias/pior-do-mundo-em-dolares-ibovespa-perde-30-mil-pontos-desde-o-recorde-em-abril-120796/"
+    },
+    {
+     "title": "Ibovespa perde fôlego após flertar com os 200 mil pontos e entra em fase de ajuste (Jornal do Comércio)",
+     "url": "https://www.jornaldocomercio.com/economia/2026/05/1247302-ibovespa-perde-folego-apos-flertar-com-os-200-mil-pontos-e-entra-em-fase-de-ajuste.html"
+    }
+   ],
+   "at": "2026-10-31"
+  },
+  "CMIG4|2026-04-10": {
+   "why": "Sem causa específica encontrada; movimento acompanhou o mercado: topo junto ao recorde do Ibovespa em abril, seguido de correção ampla em maio.",
+   "sources": [
+    {
+     "title": "Pior do mundo em dólares: Ibovespa perde 30 mil pontos desde o recorde em abril (Investidor10)",
+     "url": "https://investidor10.com.br/amp/noticias/pior-do-mundo-em-dolares-ibovespa-perde-30-mil-pontos-desde-o-recorde-em-abril-120796/"
+    },
+    {
+     "title": "Ibovespa perde fôlego após flertar com os 200 mil pontos e entra em fase de ajuste (Jornal do Comércio)",
+     "url": "https://www.jornaldocomercio.com/economia/2026/05/1247302-ibovespa-perde-folego-apos-flertar-com-os-200-mil-pontos-e-entra-em-fase-de-ajuste.html"
+    }
+   ],
+   "at": "2026-10-31"
   }
  },
  "suggestions": [
@@ -934,6 +1813,15 @@
    "source": "Tegma RI, avisos aos acionistas e histórico de dividendos",
    "url": "https://ri.tegma.com.br/en/noticias/notice-to-shareholders-dividends-distribution/",
    "note": "Valor do Yahoo confirmado; inclui R$ 1,52 de dividendo intermediário sobre lucros retidos (data-com 02/12/2025, efeito extraordinário) e R$ 0,59 do exercício 2024 pagos em abril. JCP bruto.",
+   "at": "2026-10-31"
+  },
+  {
+   "ticker": "BBSE3",
+   "year": 2025,
+   "value": 4.25,
+   "source": "BB Seguridade, Aviso aos Acionistas de 17/02/2025 (RI, servidor MZ) e anúncio de dividendos do 1S25",
+   "url": "https://api.mziq.com/mzfilemanager/v2/d/d4ee6df5-1dd8-4fb5-b518-e05397c304e4/f03b4369-4ba8-1f7b-3e74-672780b44764?origin=2",
+   "note": "Valor do Yahoo (R$ 4,26) praticamente confirmado: R$ 2,3077 (data-com 20/02, 2S24, atualizado pela Selic) + R$ 1,9421 (data-com 14/08, 1S25; este confirmado só pela imprensa). Sem extraordinário nem JCP.",
    "at": "2026-10-31"
   }
  ],
