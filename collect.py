@@ -68,11 +68,18 @@ def fetch_cdi(grid: pd.DatetimeIndex) -> dict:
     cur = start
     today = pd.Timestamp.today().normalize()
     while cur <= today:  # a API limita janelas longas; pede de 5 em 5 anos
-        end = min(cur + pd.DateOffset(years=5), today)
+        end = min(cur + pd.DateOffset(years=2), today)
         url = ("https://api.bcb.gov.br/dados/serie/bcdata.sgs.12/dados?formato=json"
                f"&dataInicial={cur:%d/%m/%Y}&dataFinal={end:%d/%m/%Y}")
-        r = requests.get(url, timeout=60)
-        r.raise_for_status()
+        for attempt in range(5):  # a API do BCB oscila (502/503); tenta de novo com espera crescente
+            try:
+                r = requests.get(url, timeout=60)
+                r.raise_for_status()
+                break
+            except Exception:
+                if attempt == 4:
+                    raise
+                time.sleep(5 * (attempt + 1))
         frames.append(pd.DataFrame(r.json()))
         cur = end + pd.Timedelta(days=1)
     df = pd.concat(frames)
@@ -239,6 +246,8 @@ def main(only: list[str]):
     except Exception as e:
         errors.append(f"cdi: {e}")
         cdi = prev.get("cdi")
+        if not cdi or len(cdi.get("index") or []) != len(grid):  # série anterior desalinhada: não reaproveita
+            cdi = None
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "dates": [d.date().isoformat() for d in grid],
