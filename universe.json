@@ -1,0 +1,423 @@
+{
+ "note": "Universo do radar: setores BEST + ações relevantes do IDIV. Edite à vontade; 'aliases' são tickers antigos tentados se o principal não tiver dados.",
+ "assets": [
+  {
+   "ticker": "ITUB4",
+   "name": "Itaú Unibanco",
+   "sector": "Bancos",
+   "profile": "banco",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "BBDC4",
+   "name": "Bradesco",
+   "sector": "Bancos",
+   "profile": "banco",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "BBAS3",
+   "name": "Banco do Brasil",
+   "sector": "Bancos",
+   "profile": "banco",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "SANB11",
+   "name": "Santander Brasil",
+   "sector": "Bancos",
+   "profile": "banco",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "ABCB4",
+   "name": "ABC Brasil",
+   "sector": "Bancos",
+   "profile": "banco",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "BRSR6",
+   "name": "Banrisul",
+   "sector": "Bancos",
+   "profile": "banco",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "BPAC11",
+   "name": "BTG Pactual",
+   "sector": "Bancos",
+   "profile": "banco",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "ITSA4",
+   "name": "Itaúsa",
+   "sector": "Bancos",
+   "profile": "holding",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "B3SA3",
+   "name": "B3",
+   "sector": "Serviços financeiros",
+   "profile": "outro",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "BBSE3",
+   "name": "BB Seguridade",
+   "sector": "Seguros",
+   "profile": "seguradora",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "CXSE3",
+   "name": "Caixa Seguridade",
+   "sector": "Seguros",
+   "profile": "seguradora",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "PSSA3",
+   "name": "Porto Seguro",
+   "sector": "Seguros",
+   "profile": "seguradora",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "IRBR3",
+   "name": "IRB Re",
+   "sector": "Seguros",
+   "profile": "seguradora",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "TAEE11",
+   "name": "Taesa",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "EGIE3",
+   "name": "Engie Brasil",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "CPLE3",
+   "name": "Copel",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": [
+    "CPLE6"
+   ]
+  },
+  {
+   "ticker": "CMIG4",
+   "name": "Cemig",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "CPFE3",
+   "name": "CPFL Energia",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "ENGI11",
+   "name": "Energisa",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "EQTL3",
+   "name": "Equatorial",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "ALUP11",
+   "name": "Alupar",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "ISAE4",
+   "name": "ISA Energia",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": [
+    "TRPL4"
+   ]
+  },
+  {
+   "ticker": "AURE3",
+   "name": "Auren",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "AXIA3",
+   "name": "Axia (ex-Eletrobras)",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": [
+    "ELET3"
+   ]
+  },
+  {
+   "ticker": "NEOE3",
+   "name": "Neoenergia",
+   "sector": "Energia elétrica",
+   "profile": "utility",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "SBSP3",
+   "name": "Sabesp",
+   "sector": "Saneamento",
+   "profile": "saneamento",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "SAPR11",
+   "name": "Sanepar",
+   "sector": "Saneamento",
+   "profile": "saneamento",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "CSMG3",
+   "name": "Copasa",
+   "sector": "Saneamento",
+   "profile": "saneamento",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "VIVT3",
+   "name": "Telefônica Vivo",
+   "sector": "Telecom",
+   "profile": "telecom",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "TIMS3",
+   "name": "TIM",
+   "sector": "Telecom",
+   "profile": "telecom",
+   "group": "BEST",
+   "aliases": []
+  },
+  {
+   "ticker": "PETR4",
+   "name": "Petrobras",
+   "sector": "Petróleo e gás",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "RECV3",
+   "name": "PetroReconcavo",
+   "sector": "Petróleo e gás",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "VBBR3",
+   "name": "Vibra",
+   "sector": "Petróleo e gás",
+   "profile": "outro",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "VALE3",
+   "name": "Vale",
+   "sector": "Mineração",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "CMIN3",
+   "name": "CSN Mineração",
+   "sector": "Mineração",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "BRAP4",
+   "name": "Bradespar",
+   "sector": "Mineração",
+   "profile": "holding",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "GGBR4",
+   "name": "Gerdau",
+   "sector": "Siderurgia",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "GOAU4",
+   "name": "Metalúrgica Gerdau",
+   "sector": "Siderurgia",
+   "profile": "holding",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "FESA4",
+   "name": "Ferbasa",
+   "sector": "Siderurgia",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "KLBN11",
+   "name": "Klabin",
+   "sector": "Papel e celulose",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "RANI3",
+   "name": "Irani",
+   "sector": "Papel e celulose",
+   "profile": "industria",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "UNIP6",
+   "name": "Unipar",
+   "sector": "Química",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "WEGE3",
+   "name": "WEG",
+   "sector": "Bens de capital",
+   "profile": "industria",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "POMO4",
+   "name": "Marcopolo",
+   "sector": "Bens de capital",
+   "profile": "industria",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "LEVE3",
+   "name": "Mahle Metal Leve",
+   "sector": "Autopeças",
+   "profile": "industria",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "TGMA3",
+   "name": "Tegma",
+   "sector": "Logística",
+   "profile": "industria",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "ABEV3",
+   "name": "Ambev",
+   "sector": "Consumo",
+   "profile": "consumo",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "SLCE3",
+   "name": "SLC Agrícola",
+   "sector": "Agronegócio",
+   "profile": "commodity",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "CYRE3",
+   "name": "Cyrela",
+   "sector": "Construção",
+   "profile": "construcao",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "DIRR3",
+   "name": "Direcional",
+   "sector": "Construção",
+   "profile": "construcao",
+   "group": "IDIV",
+   "aliases": []
+  },
+  {
+   "ticker": "CURY3",
+   "name": "Cury",
+   "sector": "Construção",
+   "profile": "construcao",
+   "group": "IDIV",
+   "aliases": []
+  }
+ ],
+ "benchmarks": {
+  "IBOV": "^BVSP",
+  "IDIV_proxy": "DIVO11.SA"
+ }
+}
