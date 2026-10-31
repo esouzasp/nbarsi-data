@@ -50,7 +50,21 @@ QUERY = {
     "AXIA3": '"Axia Energia" OR Eletrobras OR AXIA3', "CURY3": '"Cury" CURY3', "RANI3": '"Irani" RANI3',
     "WEGE3": '"WEG" WEGE3', "ITSA4": 'Itaúsa OR ITSA4', "ISAE4": '"ISA Energia" OR ISAE4 OR "Isa Cteep"',
     "PSSA3": '"Porto Seguro" PSSA3 OR "Porto Seguro" ações', "LEVE3": '"Mahle" LEVE3 OR "Metal Leve"',
+    "VBBR3": '"Vibra Energia" OR VBBR3', "UNIP6": '"Unipar" UNIP6 OR "Unipar Carbocloro"',
 }
+# termos que a manchete precisa conter para valer para o ativo (além do radical do ticker)
+TERMS = {"VBBR3": ["vibra energia"], "UNIP6": ["unipar carbocloro", "unipar ("], "B3SA3": ["b3 (", "a b3 ", "da b3 "],
+         "TIMS3": ["tim "], "VALE3": ["vale (", "vale "], "WEGE3": ["weg"], "ISAE4": ["isa energia", "isa cteep", "cteep"],
+         "AXIA3": ["axia", "eletrobras"], "BRSR6": ["banrisul ("], "PSSA3": ["porto seguro", "porto ("]}
+NOISE = re.compile(r"resultados, dividendos, cota[çc][ãa]o e indicadores|cota[çc][ãa]o e indicadores|cianorte", re.I)
+
+
+def relevant(title: str, t: str, name: str) -> bool:
+    low = title.lower()
+    if NOISE.search(title):
+        return False
+    terms = [t.lower(), t[:4].lower()] + (TERMS.get(t) or [w.lower() for w in name.replace("(", " ").split() if len(w) >= 4][:1])
+    return any(x in low for x in terms)
 MACRO_Q = {
     "juros": "Copom Selic", "bolsa": "Ibovespa fechamento", "cambio": "dólar real fechamento",
     "petroleo": "petróleo Brent", "minerio": "minério de ferro preço", "eletricas": "setor elétrico Aneel tarifa",
@@ -169,7 +183,7 @@ def cvm_ipe(tmap: dict, year: int, errors: list) -> tuple[list, dict, list]:
             d = r["_d"]
             if pd.isna(d):
                 continue
-            base = {"date": d.date().isoformat(), "categoria": cat, "assunto": txt.strip()[:300],
+            base = {"date": d.date().isoformat(), "categoria": cat, "assunto": re.sub(r"\s+", " ", txt).strip()[:200],
                     "url": r[C["Link_Download"]], "ref": str(r[C["Data_Referencia"]])[:10]}
             for t in by_cnpj[r[C["CNPJ_Companhia"]]]:
                 item = {**base, "tickers": [t]}
@@ -182,7 +196,7 @@ def cvm_ipe(tmap: dict, year: int, errors: list) -> tuple[list, dict, list]:
                                    "title": "Calendário de eventos corporativos publicado", "url": base["url"]})
         log(f"IPE {y}: {len(df)} documentos das empresas do universo")
     for t in prov:
-        prov[t] = sorted(prov[t], key=lambda x: x["date"], reverse=True)[:60]
+        prov[t] = sorted(prov[t], key=lambda x: x["date"], reverse=True)[:40]
     return feed, prov, agenda
 
 
@@ -214,14 +228,14 @@ def headlines(uni: dict, errors: list) -> list:
         t = a["ticker"]
         q = QUERY.get(t) or f'"{a["name"]}" OR {t}'
         try:
-            for h in gnews(q, 7)[:15]:
+            for h in [h for h in gnews(q, 7) if relevant(h["title"], t, a["name"])][:15]:
                 items.append({**h, "id": "gn-" + hid(h["title"].lower()), "kind": "manchete", "tickers": [t]})
         except Exception as e:
             errors.append(f"gnews {t}: {e}")
         time.sleep(1.0)
     for tema, q in MACRO_Q.items():
         try:
-            for h in gnews(q, 3)[:12]:
+            for h in [h for h in gnews(q, 3) if not NOISE.search(h["title"])][:12]:
                 items.append({**h, "id": "gn-" + hid(h["title"].lower()), "kind": "macro", "tickers": [], "tema": tema})
         except Exception as e:
             errors.append(f"gnews {tema}: {e}")
@@ -238,7 +252,7 @@ def merge_feed(old: list, new: list) -> list:
             by[k]["tickers"] = sorted(set(by[k].get("tickers", [])) | set(it.get("tickers", [])))
             continue
         by[k] = dict(it)
-    out = [v for v in by.values() if v.get("date", "") >= cutoff]
+    out = [v for v in by.values() if v.get("date", "") >= cutoff and not NOISE.search(v.get("title") or "")]
     return sorted(out, key=lambda x: (x.get("date", ""), x.get("ts", "")), reverse=True)
 
 
@@ -271,7 +285,7 @@ def on_dates(s: pd.Series, dates: list[str]) -> list:
 def macro(dates: list[str], errors: list) -> dict:
     start = pd.Timestamp(dates[0]) - pd.Timedelta(days=40)
     series, labels = {}, {}
-    for key, code, lab, step in (("selic", 432, "Selic meta (% a.a.)", 10), ("ipca12", 13522, "IPCA 12 meses (%)", 10),
+    for key, code, lab, step in (("selic", 432, "Selic meta (% a.a.)", 5), ("ipca12", 13522, "IPCA 12 meses (%)", 10),
                                  ("usd", 1, "Dólar PTAX (R$)", 5)):
         try:
             series[key] = on_dates(sgs(code, start, step), dates)
