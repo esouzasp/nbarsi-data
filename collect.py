@@ -23,7 +23,8 @@ import yfinance as yf
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "data" / "market.json"
-YEARS = 5
+YEARS = 15          # profundidade do histórico semanal (retroteste de até 15 anos)
+DIV_YEARS = 5       # janela das estatísticas de proventos
 START = (pd.Timestamp.today().normalize() - pd.DateOffset(years=YEARS + 1)).date()
 
 
@@ -105,7 +106,7 @@ def dividend_stats(divs: pd.Series, price: float | None) -> dict:
     """Proventos por ação (data-com), por ano civil e últimos 12 meses."""
     today = pd.Timestamp.today().normalize()
     this_year = today.year
-    by_year = {str(y): 0.0 for y in range(this_year - YEARS, this_year)}
+    by_year = {str(y): 0.0 for y in range(this_year - DIV_YEARS, this_year)}
     if not divs.empty:
         for y, v in divs.groupby(divs.index.year).sum().items():
             if str(y) in by_year:
@@ -193,7 +194,7 @@ def collect_asset(a: dict, grid) -> dict:
         "liquidez_media_3m": clean(liq, 0),
         "close": on_grid(close, grid),
         "divs": [[d.date().isoformat(), clean(v, 6)] for d, v in divs.items()
-                 if d >= grid[0] - pd.DateOffset(years=1)],
+                 if d >= grid[0]],
     }
     rec.update(dividend_stats(divs, price))
     rec.update(fundamentals(tk))
