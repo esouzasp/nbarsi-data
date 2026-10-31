@@ -1,1 +1,1197 @@
-{"updated_at": null, "summary": null, "items": {}, "inflections": {}, "suggestions": [], "timeline_extra": []}
+{
+ "updated_at": "2026-10-31T10:05:21+00:00",
+ "summary": {
+  "date": "2026-10-31",
+  "text": "Semana dominada pela reeleição de Lula: Ibovespa caiu 18% e o dólar subiu 9%, com apostas de Selic parada no Copom de 4/11. Negativo para BRSR6, DIRR3, TGMA3 e CMIG4 (governador eleito promete reduzir tarifa). Em CSMG3, a Equatorial rescindiu o acordo de acionistas com Minas Gerais (negativo, nível alto). TIMS3: a Poste Italiane sinaliza venda do controle (incerto). ITUB4 segue preferido pelos bancos; WEGE3 ganha com o dólar e com data centers. CXSE3 recebe multa de R$ 750 mi do Banco Pan (positivo). VIVT3 negocia a Vero. Petróleo a US$ 117 eleva o risco de inflação."
+ },
+ "items": {
+  "cvm-ea3dd4aed59c": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Renúncia de conselheira e membro de comitê; troca de governança sem efeito esperado em lucro ou proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-90a10c500eb5": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Material da teleconferência do 3T26; o efeito no preço veio do próprio resultado, já divulgado.",
+   "at": "2026-10-31"
+  },
+  "cvm-7610d655360c": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CPLE3"
+   ],
+   "why": "Mercado faturado da distribuidora cresce 5,8% no 3T, sinal de receita maior no trimestre.",
+   "at": "2026-10-31",
+   "setores": {
+    "eletricas": "+"
+   }
+  },
+  "cvm-ee4ebd1cf614": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Apresentação institucional a investidores; sem informação nova relevante.",
+   "at": "2026-10-31"
+  },
+  "cvm-e34483afe5fa": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Planejamento sucessório na gestão; transição anunciada reduz incerteza, sem efeito direto em lucro.",
+   "at": "2026-10-31"
+  },
+  "cvm-1d2d640a46f3": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ISAE4"
+   ],
+   "why": "Participação em evento online; comunicado protocolar.",
+   "at": "2026-10-31"
+  },
+  "cvm-b890d058cafa": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Cronograma de divulgação do 3T26; só agenda.",
+   "at": "2026-10-31"
+  },
+  "cvm-03e3b1b39ab1": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ABCB4"
+   ],
+   "why": "Homologação de aumento de capital já aprovado; diluição pequena e conhecida, reforça capital para crescer.",
+   "at": "2026-10-31"
+  },
+  "cvm-7bee5539fa7e": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "PSSA3"
+   ],
+   "why": "Dados setoriais mensais de prêmios; ajudam a acompanhar o ritmo de receita.",
+   "at": "2026-10-31",
+   "setores": {
+    "seguros": "+"
+   }
+  },
+  "cvm-13f54d2c40e2": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Participação em podcast; comunicado protocolar.",
+   "at": "2026-10-31"
+  },
+  "cvm-986017ef85e5": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "DIRR3"
+   ],
+   "why": "Fundo reduz participação relevante; fluxo pontual de venda, sem mudança nos fundamentos.",
+   "at": "2026-10-31"
+  },
+  "cvm-d8245f9884a9": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Troca do banco depositário dos ADRs; tema operacional sem efeito econômico.",
+   "at": "2026-10-31"
+  },
+  "cvm-facf2a5f20d5": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Desempenho mensal de agosto; prévia do resultado trimestral.",
+   "at": "2026-10-31"
+  },
+  "cvm-c5b0a0fdd87b": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Desempenho mensal de agosto; prévia do resultado trimestral.",
+   "at": "2026-10-31"
+  },
+  "cvm-fc3373085629": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Rescisão com o Banco Pan rende multa (ganho estimado de R$ 210 mi em 2026), mas reduz um canal de venda.",
+   "at": "2026-10-31"
+  },
+  "cvm-4e3203a04568": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Mudança na diretoria; sem sinal de mudança de estratégia ou de dividendos.",
+   "at": "2026-10-31"
+  },
+  "cvm-3ac9b7caa948": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "VIVT3"
+   ],
+   "why": "Declaração de JCP/dividendos mantém o fluxo regular de proventos da Vivo.",
+   "at": "2026-10-31"
+  },
+  "cvm-cdb5b4eeba6d": {
+   "dir": "neg",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "DIRR3"
+   ],
+   "why": "Prévia do 3T26 com vendas mais fracas (queda de 21% citada na imprensa); ação caiu na semana.",
+   "at": "2026-10-31",
+   "setores": {
+    "construcao": "-"
+   }
+  },
+  "cvm-1c520f66aa48": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Período de silêncio antes do 3T26; só agenda.",
+   "at": "2026-10-31"
+  },
+  "cvm-538616726613": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ISAE4"
+   ],
+   "why": "Investidor altera participação relevante; fluxo pontual, sem efeito nos fundamentos.",
+   "at": "2026-10-31"
+  },
+  "cvm-8de7211c06b6": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BRSR6"
+   ],
+   "why": "Investidor atinge participação relevante; pode indicar interesse, sem efeito nos fundamentos.",
+   "at": "2026-10-31"
+  },
+  "cvm-6fc07fb7378d": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ABCB4"
+   ],
+   "why": "Investidor atinge participação relevante; sem efeito nos fundamentos.",
+   "at": "2026-10-31"
+  },
+  "cvm-8cbc2a9067f2": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Dados operacionais do 3T26 (volumes e ligações); prévia da receita.",
+   "at": "2026-10-31"
+  },
+  "cvm-b2276571c1ff": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Investidor atinge participação relevante; sem efeito nos fundamentos.",
+   "at": "2026-10-31"
+  },
+  "cvm-c2721c69a523": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Moody's reafirma rating AAA.br; mantém custo de dívida baixo.",
+   "at": "2026-10-31"
+  },
+  "cvm-81e8f4ba9d07": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Agenda de divulgação do 3T26; só calendário.",
+   "at": "2026-10-31"
+  },
+  "cvm-3fbc04ea9531": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "PSSA3"
+   ],
+   "why": "Cancelamento de registro da controlada Porto Serviço; simplificação societária sem efeito relevante no lucro.",
+   "at": "2026-10-31"
+  },
+  "cvm-94a202eb0334": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Resultado da oferta da Poste pela Telecom Italia; confirma mudança do controle indireto da TIM Brasil.",
+   "at": "2026-10-31"
+  },
+  "cvm-9ea9a46d2a35": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Material do WEG Day 2026; reforça estratégia já conhecida.",
+   "at": "2026-10-31"
+  },
+  "cvm-4f24c3010a08": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "ISAE4"
+   ],
+   "why": "Declaração de JCP mantém fluxo de proventos trimestrais da ISA Energia.",
+   "at": "2026-10-31"
+  },
+  "cvm-52d0dfc25756": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Mudança no comitê de auditoria; governança sem efeito direto.",
+   "at": "2026-10-31"
+  },
+  "cvm-10098ac9e4e4": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Captação de debêntures (23ª emissão) financia investimentos; eleva dívida dentro do plano.",
+   "at": "2026-10-31"
+  },
+  "cvm-f38d225c8173": {
+   "dir": "neg",
+   "level": 3,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Gerais Saneamento (Equatorial) rescinde acordo de acionistas com Minas Gerais; aumenta incerteza sobre controle e governança pós-privatização.",
+   "at": "2026-10-31",
+   "setores": {
+    "saneamento": "-"
+   }
+  },
+  "cvm-bfd57277568a": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ABCB4"
+   ],
+   "why": "Emissão de letras financeiras perpétuas reforça capital de nível 1 sem diluir acionistas.",
+   "at": "2026-10-31"
+  },
+  "cvm-bd07dfe61885": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Nova composição do conselho e da diretoria; efeito depende da gestão escolhida.",
+   "at": "2026-10-31"
+  },
+  "cvm-e711b709ee7d": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Investe US$ 165 milhões para ampliar produção de geradores nos EUA; amplia receita em dólar.",
+   "at": "2026-10-31",
+   "setores": {
+    "industria": "+"
+   }
+  },
+  "cvm-6f6ab5985493": {
+   "dir": "neg",
+   "level": 3,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Equatorial notifica intenção de rescindir acordo de acionistas com o governo mineiro; risco de saída do investidor de referência.",
+   "at": "2026-10-31",
+   "setores": {
+    "saneamento": "-"
+   }
+  },
+  "cvm-abacd34cc388": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ABCB4"
+   ],
+   "why": "Programa de recompra sinaliza ação descontada e devolve capital ao acionista.",
+   "at": "2026-10-31"
+  },
+  "cvm-73d772116d9b": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Amplia fábrica de sistemas de armazenamento de energia; crescimento em segmento novo.",
+   "at": "2026-10-31",
+   "setores": {
+    "industria": "+"
+   }
+  },
+  "cvm-47994237cca7": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "DIRR3"
+   ],
+   "why": "Investidor atinge participação relevante; sem efeito nos fundamentos.",
+   "at": "2026-10-31"
+  },
+  "cvm-7b07a6806d88": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Pedido de voto múltiplo na eleição do conselho; minoritários buscam mais assentos.",
+   "at": "2026-10-31"
+  },
+  "cvm-81a3f519d082": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "indireto",
+   "tickers": [
+    "ITUB4",
+    "ITSA4"
+   ],
+   "why": "Apresentação Panorama Itaúsa; informativo sobre a holding controladora.",
+   "at": "2026-10-31"
+  },
+  "cvm-0e1ecf91ba6c": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "PSSA3"
+   ],
+   "why": "Dados setoriais de julho; acompanhamento de prêmios.",
+   "at": "2026-10-31",
+   "setores": {
+    "seguros": "+"
+   }
+  },
+  "cvm-98b779dfc5e3": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BBSE3"
+   ],
+   "why": "Desempenho mensal de julho; prévia do resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-35b2051a2d40": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Desempenho mensal de julho; prévia do resultado.",
+   "at": "2026-10-31"
+  },
+  "cvm-aa72b1c55548": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "PSSA3"
+   ],
+   "why": "Declaração de JCP mantém o fluxo regular de proventos da Porto.",
+   "at": "2026-10-31"
+  },
+  "cvm-c8854f2f87d4": {
+   "dir": "neutro",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Oferta da Poste Italiane pela Telecom Italia muda o controle indireto da TIM Brasil; pode abrir venda do controle.",
+   "at": "2026-10-31",
+   "setores": {
+    "telecom": "+"
+   }
+  },
+  "cvm-23788d82df80": {
+   "dir": "neutro",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Oferta da Poste Italiane pela Telecom Italia muda o controle indireto da TIM Brasil; pode abrir venda do controle.",
+   "at": "2026-10-31"
+  },
+  "cvm-f4258d75c93a": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Versão em inglês do fato relevante sobre a oferta da Poste pela Telecom Italia.",
+   "at": "2026-10-31"
+  },
+  "cvm-999f4313f22f": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Versão repetida do fato relevante sobre a oferta da Poste pela Telecom Italia.",
+   "at": "2026-10-31"
+  },
+  "cvm-c7145e89468c": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Declaração de JCP mantém distribuição elevada da TIM.",
+   "at": "2026-10-31"
+  },
+  "cvm-91d61eee964c": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Aviso de proventos em duplicidade (versão em inglês ou complemento).",
+   "at": "2026-10-31"
+  },
+  "cvm-f7742aaf3131": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Cancelamento de ações em tesouraria eleva o lucro e o provento por ação remanescente.",
+   "at": "2026-10-31"
+  },
+  "cvm-d821c901f68c": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TIMS3"
+   ],
+   "why": "Versão em inglês do cancelamento de ações em tesouraria.",
+   "at": "2026-10-31"
+  },
+  "cvm-a28bf54390b3": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "EGIE3"
+   ],
+   "why": "Material do Engie Day 2026; plano de investimentos já conhecido.",
+   "at": "2026-10-31"
+  },
+  "cvm-24eba75a8350": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Declaração de JCP mantém fluxo de proventos da Cemig.",
+   "at": "2026-10-31"
+  },
+  "cvm-8545d7d91793": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ABCB4"
+   ],
+   "why": "Leilão de sobras do aumento de capital; etapa final da operação.",
+   "at": "2026-10-31"
+  },
+  "cvm-2cac3919f203": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Recompra de letras subordinadas nível 2; gestão de capital sem efeito relevante no lucro.",
+   "at": "2026-10-31"
+  },
+  "cvm-d7cac0f76ff4": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CPLE3"
+   ],
+   "why": "Deslistagem na Latibex reduz custo; mercado secundário pouco relevante.",
+   "at": "2026-10-31"
+  },
+  "cvm-cba9577fe7ee": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Eleição do presidente do conselho; governança sem efeito direto.",
+   "at": "2026-10-31"
+  },
+  "cvm-2bce556bc4e6": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Planejamento sucessório; transição de gestão anunciada com antecedência.",
+   "at": "2026-10-31"
+  },
+  "cvm-304f13eafd95": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "WEGE3"
+   ],
+   "why": "Declaração de JCP trimestral; fluxo regular de proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-e60a2b679ce9": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "VIVT3"
+   ],
+   "why": "Declaração de JCP; fluxo regular de proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-e0897b597a97": {
+   "dir": "neutro",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Eleição de novo presidente e de presidente do conselho; mudança de gestão em estatal mineira.",
+   "at": "2026-10-31"
+  },
+  "cvm-bb98c2323786": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Anúncio da remuneração aos acionistas do 3T26; mantém proventos trimestrais.",
+   "at": "2026-10-31"
+  },
+  "cvm-b43501547e67": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ITUB4"
+   ],
+   "why": "Emissão de letras subordinadas nível 2; reforço de capital sem diluição.",
+   "at": "2026-10-31"
+  },
+  "cvm-f136affd2103": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Liquidação de debêntures da Cemig GT; financiamento de rotina.",
+   "at": "2026-10-31"
+  },
+  "cvm-fab083d35597": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Liquidação de debêntures da Cemig D; financiamento de investimentos em distribuição.",
+   "at": "2026-10-31"
+  },
+  "cvm-bf710be54afd": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "ISAE4"
+   ],
+   "why": "Apresentação em conferência do UBS; sem informação nova.",
+   "at": "2026-10-31"
+  },
+  "cvm-53af625cd927": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "BRSR6"
+   ],
+   "why": "Declaração de JCP do 3T26 (cerca de R$ 90 milhões); mantém o fluxo de proventos.",
+   "at": "2026-10-31"
+  },
+  "cvm-9cf0c170f190": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "DIRR3"
+   ],
+   "why": "Entrada no IBrX 50 amplia a demanda de fundos indexados.",
+   "at": "2026-10-31"
+  },
+  "cvm-4ddf39243a54": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CSMG3"
+   ],
+   "why": "Entrada no IBrX 50 amplia a demanda de fundos indexados.",
+   "at": "2026-10-31"
+  },
+  "cvm-605a9f62a808": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Apresentação institucional do 2T26; sem informação nova.",
+   "at": "2026-10-31"
+  },
+  "cvm-adbe3f42db16": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Apresentação sobre eficiência para press trip; sem informação nova.",
+   "at": "2026-10-31"
+  },
+  "cvm-7085139950c2": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Prorrogação da concessão da UHE Sá Carvalho preserva receita de geração por mais anos.",
+   "at": "2026-10-31",
+   "setores": {
+    "eletricas": "+"
+   }
+  },
+  "cvm-faede3dd47a6": {
+   "dir": "pos",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Prorrogação da concessão da UHE Sá Carvalho preserva receita de geração (versão duplicada).",
+   "at": "2026-10-31"
+  },
+  "cvm-bfe6b57bef54": {
+   "dir": "neutro",
+   "level": 2,
+   "scope": "direto",
+   "tickers": [
+    "CMIG4"
+   ],
+   "why": "Controlador indica novo conselho e presidente; risco de mudança de política na estatal.",
+   "at": "2026-10-31"
+  },
+  "cvm-2b99b86528dd": {
+   "dir": "pos",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "TAEE11"
+   ],
+   "why": "Energização de reforço em São Pedro adiciona receita anual permitida.",
+   "at": "2026-10-31"
+  },
+  "cvm-2e0f9a79bcce": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "CXSE3"
+   ],
+   "why": "Troca do banco escriturador; tema operacional.",
+   "at": "2026-10-31"
+  },
+  "cvm-1cb7ff9cd272": {
+   "dir": "neutro",
+   "level": 1,
+   "scope": "direto",
+   "tickers": [
+    "BRSR6"
+   ],
+   "why": "Apresentação institucional do 2T26; sem informação nova.",
+   "at": "2026-10-31"
+  }
+ },
+ "inflections": {
+  "TGMA3|2026-10-23": {
+   "why": "Topo após alta de 85% com proventos elevados e rali eleitoral; a reeleição de Lula derrubou o Ibovespa 18% na semana seguinte e a ação caiu cerca de 30%.",
+   "sources": [
+    {
+     "title": "Dólar tem maior alta semanal desde 2008; Ibovespa despenca 18,12% (UOL Economia)",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOV0N3MkVGTFVvUEtYZWQyTEdFa3dqTm16cFAwNjVZcXgxMzJSdUlrcmpmaFhXcXotS0t2Z1ZrdHIxSlNIMkZMOWQ0S2cxbjNSVkM1dTN4a0djclVzajQwamFwS2ZEclNJN3BibkhoTWZQNzhEWnhiVElLYUdHSFFlLWFJREwxLWVscjJmRjVZVGFPT09lbEJONVVxaWFBaEVkYzhMcWo3ZkhsR3pFdGJjM01Yb0pPM3Q1MWJab2xUNDBKV2NMa2NOb01tQVg?oc=5"
+    },
+    {
+     "title": "Ibovespa fecha outubro no vermelho e deixa quase 18% pelo caminho em uma semana (Suno)",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5oVGE3WTl0OHB6WWRuLU5JN0l0cDVkRms4S3dVSkFJQXBmSTdOLWM4SkkxcFlZc2tEVzBtUmptX1dlQXp1UWZDZTlzSzZZRmtQSTRJc3JvWTRzS0tlMWJybUR4UGtPaWhDM3RNM1VWOXFtaF9v0gF6QVVfeXFMUHEtVDNScUtYakVfVENHZ051LXVLY3I4RmhmblVqelhKbmdMSFRjWFJYSmI1OHZuVG5yMk4yRHp4MGVvWFFTM2xvZHJFNTBQb25YM3llem1fOGN3SnUwVTlWRFdNbll6d25FWDhBR3ZjdzllVXVVaFEwX0E?oc=5"
+    }
+   ],
+   "at": "2026-10-31"
+  },
+  "BRSR6|2026-10-09": {
+   "why": "Rali dos bancos após o 1º turno (Ibovespa em recorde de 209 mil pontos) levou o topo; a aposta se desfez com a reeleição de Lula em 26/10.",
+   "sources": [
+    {
+     "title": "Quatro dos cinco maiores bancos sobem mais de 10% após o 1º turno (TradeMap)",
+     "url": "https://trademap.com.br/noticias/news-8388466"
+    },
+    {
+     "title": "Ibovespa hoje: alta com eleição e recorde de 209 mil pontos (EuQueroInvestir)",
+     "url": "https://euqueroinvestir.com/acoes/ibovespa-hoje-alta-eleicao-recorde-209-mil"
+    },
+    {
+     "title": "Dólar tem maior alta semanal desde 2008; Ibovespa despenca 18,12% (UOL Economia)",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOV0N3MkVGTFVvUEtYZWQyTEdFa3dqTm16cFAwNjVZcXgxMzJSdUlrcmpmaFhXcXotS0t2Z1ZrdHIxSlNIMkZMOWQ0S2cxbjNSVkM1dTN4a0djclVzajQwamFwS2ZEclNJN3BibkhoTWZQNzhEWnhiVElLYUdHSFFlLWFJREwxLWVscjJmRjVZVGFPT09lbEJONVVxaWFBaEVkYzhMcWo3ZkhsR3pFdGJjM01Yb0pPM3Q1MWJab2xUNDBKV2NMa2NOb01tQVg?oc=5"
+    }
+   ],
+   "at": "2026-10-31"
+  },
+  "DIRR3|2026-10-09": {
+   "why": "Topo no rali do 1º turno; na semana seguinte a prévia do 3T26 mostrou vendas mais fracas e a ação recuou cerca de 15%.",
+   "sources": [
+    {
+     "title": "Ibovespa hoje: alta com eleição e recorde de 209 mil pontos (EuQueroInvestir)",
+     "url": "https://euqueroinvestir.com/acoes/ibovespa-hoje-alta-eleicao-recorde-209-mil"
+    },
+    {
+     "title": "Direcional tem queda de 21% nas vendas no 3T26, mas BTG mantém recomendação (EuQueroInvestir)",
+     "url": "https://euqueroinvestir.com/acoes/direcional-tem-queda-de-21-nas-vendas-no-3t26-mas-btg-mantem-recomendacao"
+    },
+    {
+     "title": "Direcional (DIRR3): por que as ações caem mais de 6% nesta sexta-feira (16) (Money Times)",
+     "url": "https://www.moneytimes.com.br/direcional-dirr3-por-que-as-acoes-caem-mais-de-6-nesta-sexta-feira-16-igdl/"
+    }
+   ],
+   "at": "2026-10-31"
+  },
+  "DIRR3|2026-09-25": {
+   "why": "Fundo após queda de 42% desde fevereiro com juros altos e resultados mistos; a virada veio com o rali eleitoral do início de outubro.",
+   "sources": [
+    {
+     "title": "Direcional (DIRR3) cai após 2T26 misto, mas bancos mantêm visão positiva (InfoMoney)",
+     "url": "https://www.infomoney.com.br/?p=3405001"
+    },
+    {
+     "title": "Ibovespa hoje: alta com eleição e recorde de 209 mil pontos (EuQueroInvestir)",
+     "url": "https://euqueroinvestir.com/acoes/ibovespa-hoje-alta-eleicao-recorde-209-mil"
+    }
+   ],
+   "at": "2026-10-31"
+  },
+  "BRSR6|2026-08-14": {
+   "why": "Fundo na semana do 2T26: lucro reagiu, mas a revisão para baixo do guidance de 2026 pesou; depois a ação subiu com o mercado.",
+   "sources": [
+    {
+     "title": "Banrisul (BRSR6) resultado 2T26: lucro reage, mas revisão do guidance expõe desafios operacionais (Genial Analisa)",
+     "url": "https://analisa.genialinvestimentos.com.br/acoes/banrisul/banrisul-brsr6-resultado-2t26-lucro-reage-mas-revisao-do-guidance-expoe-desafios-operacionais"
+    },
+    {
+     "title": "Banrisul (BRSR6) revisa projeções de performance para 2026 (Acionista)",
+     "url": "https://acionista.com.br/banrisul-brsr6-revisa-projecoes-de-performance-para-2026/"
+    }
+   ],
+   "at": "2026-10-31"
+  }
+ },
+ "suggestions": [
+  {
+   "ticker": "WEGE3",
+   "year": 2025,
+   "value": 2.4506,
+   "source": "WEG RI, página de dividendos",
+   "url": "https://ri.weg.net/en/our-shares/dividends/",
+   "note": "Valor do Yahoo confirmado; inclui extraordinário de R$ 1,2385 (reservas de lucros, AGE 19/12/2025, pago em 3 parcelas 2026–2028). Recorrente ≈ R$ 1,21. Data-com assumida = data da RCA/AGE.",
+   "at": "2026-10-31"
+  },
+  {
+   "ticker": "TGMA3",
+   "year": 2025,
+   "value": 4.43,
+   "source": "Tegma RI, avisos aos acionistas e histórico de dividendos",
+   "url": "https://ri.tegma.com.br/en/noticias/notice-to-shareholders-dividends-distribution/",
+   "note": "Valor do Yahoo confirmado; inclui R$ 1,52 de dividendo intermediário sobre lucros retidos (data-com 02/12/2025, efeito extraordinário) e R$ 0,59 do exercício 2024 pagos em abril. JCP bruto.",
+   "at": "2026-10-31"
+  }
+ ],
+ "timeline_extra": [
+  {
+   "date": "2026-10-30",
+   "prec": "dia",
+   "tipo": "global",
+   "titulo": "Ataques no Oriente Médio e em Ormuz: Brent sobe quase 20% em outubro e chega a US$ 117",
+   "canal": "petróleo e inflação",
+   "setores": {
+    "petroleo": "+",
+    "consumo": "-",
+    "industria": "-"
+   }
+  }
+ ],
+ "assets": {
+  "ITUB4": {
+   "leitura": "Caiu cerca de 15% após a reeleição, mas Citi, JPMorgan e Genial seguem preferindo o banco; a compra da NeoSpace (R$ 2,9 bi) e o Itaú Pay reforçam a tese de qualidade. Juros altos por mais tempo sustentam margem; o risco é a inadimplência subir com uma economia mais fraca. Reforça a posição como âncora bancária.",
+   "cenarios": {
+    "base": "ROE acima de 20% e payout alto mantêm DY atrativo com preço deprimido.",
+    "otimista": "Ajuste fiscal crível e queda do prêmio de risco devolvem o múltiplo pré-eleição.",
+    "pessimista": "Recessão e alta da inadimplência comprimem lucro e reduzem extraordinários."
+   },
+   "gatilhos": [
+    "ROE trimestral abaixo de 18%",
+    "Inadimplência 90 dias subindo dois trimestres seguidos",
+    "Corte no payout ou fim dos dividendos extraordinários"
+   ],
+   "at": "2026-10-31"
+  },
+  "BBSE3": {
+   "leitura": "Lucro de R$ 830 milhões no 3T26 com pressão operacional e análises apontando risco de queda dos proventos por ação; a ação sofre com o rótulo de estatal após a eleição. Selic alta ajuda o resultado financeiro. Enfraquece parcialmente a recomendação: DY alto, mas com sinais de pico de lucro.",
+   "cenarios": {
+    "base": "Prêmios estáveis e Selic alta mantêm dividendos perto de 10%.",
+    "otimista": "Copom mantém juros altos e prêmios do agro voltam a crescer.",
+    "pessimista": "Queda de prêmios, interferência do controlador ou renovação do acordo com o BB em condições piores."
+   },
+   "gatilhos": [
+    "Prêmios emitidos caindo dois meses seguidos",
+    "Payout abaixo de 80%",
+    "Mudança no acordo operacional com o Banco do Brasil",
+    "Início de cortes da Selic"
+   ],
+   "at": "2026-10-31"
+  },
+  "PSSA3": {
+   "leitura": "Citi recomenda compra de Porto Seguro após a eleição e bancos privados e seguradoras viraram refúgio no setor; reportes mensais seguem estáveis. Notícias sobre 'Porto Seguro' (BA) são homônimas. Reforça a recomendação.",
+   "cenarios": {
+    "base": "Crescimento de prêmios em auto e saúde com sinistralidade controlada.",
+    "otimista": "Selic alta por mais tempo eleva receita financeira e o JCP.",
+    "pessimista": "Alta de sinistralidade em auto ou recessão reduzindo vendas."
+   },
+   "gatilhos": [
+    "Sinistralidade de auto acima de 60%",
+    "ROE abaixo de 18%",
+    "Queda no reporte setorial por dois meses"
+   ],
+   "at": "2026-10-31"
+  },
+  "CPLE3": {
+   "leitura": "Mercado faturado da distribuidora cresceu 5,8% no 3T e a empresa reorganizou a gestão com nova vice-presidência de operações; a ação caiu com o mercado após a eleição. Corporação privatizada sofre menos risco político que estatais. Mantém a recomendação, com proventos ainda baixos em relação ao histórico.",
+   "cenarios": {
+    "base": "Crescimento de carga e eficiência pós-privatização sustentam lucro.",
+    "otimista": "Aumento de payout com a desalavancagem.",
+    "pessimista": "Juros altos encarecem a dívida e atrasam a distribuição."
+   },
+   "gatilhos": [
+    "Payout abaixo de 50% no exercício",
+    "Revisão tarifária desfavorável",
+    "Alavancagem acima de 3x dívida/EBITDA"
+   ],
+   "at": "2026-10-31"
+  },
+  "EGIE3": {
+   "leitura": "A Aneel rejeitou recurso da Engie contra multa por falta de lastro em solar; efeito pequeno, mas soma-se ao ciclo pesado de investimentos que pressiona o caixa. Juros altos por mais tempo pesam no valuation de geradoras. Enfraquece levemente a recomendação.",
+   "cenarios": {
+    "base": "Novos projetos entram em operação e dividendos se mantêm.",
+    "otimista": "Queda dos juros longos e preço de energia alto valorizam o portfólio.",
+    "pessimista": "Atrasos em obras e dívida maior reduzem payout."
+   },
+   "gatilhos": [
+    "Payout abaixo de 55%",
+    "Dívida/EBITDA acima de 3,5x",
+    "Novas multas ou glosas regulatórias relevantes"
+   ],
+   "at": "2026-10-31"
+  },
+  "TAEE11": {
+   "leitura": "Poucas novidades: troca na diretoria, nova presidência do conselho e energização de reforço em São Pedro. A queda da receita RBSE segue como ponto de atenção. Juros altos favorecem a receita indexada, mas pesam no múltiplo. Recomendação sem mudança.",
+   "cenarios": {
+    "base": "Receita indexada à inflação mantém dividendos estáveis.",
+    "otimista": "Vitórias em leilões com retorno alto ampliam receita.",
+    "pessimista": "Queda da RBSE e alavancagem maior reduzem o dividendo."
+   },
+   "gatilhos": [
+    "Corte de dividendo acima de 20%",
+    "Novo lance agressivo em leilão",
+    "Alavancagem acima de 4x"
+   ],
+   "at": "2026-10-31"
+  },
+  "CSMG3": {
+   "leitura": "A Gerais Saneamento (Equatorial) rescindiu o acordo de acionistas com Minas Gerais, e a imprensa fala em 'reestatização branda'; a prefeitura de Lavras rompeu contrato. A ação caiu cerca de 25% desde o topo de outubro. Enfraquece a recomendação até ficar claro quem comanda a companhia.",
+   "cenarios": {
+    "base": "Governança estável e plano de investimentos mantido sustentam proventos trimestrais.",
+    "otimista": "Novo acordo ou entrada de outro investidor de referência destrava a tese da privatização.",
+    "pessimista": "Volta da influência estatal, tarifa represada e perda de municípios."
+   },
+   "gatilhos": [
+    "Saída formal da Equatorial do capital",
+    "Novo conselho alinhado ao governo estadual",
+    "Mais municípios rompendo contratos",
+    "Reajuste tarifário abaixo da inflação"
+   ],
+   "at": "2026-10-31"
+  },
+  "VIVT3": {
+   "leitura": "A Telefônica confirmou tratativas preliminares para comprar a Vero e firmou parceria com a Starlink, bem recebida por Goldman e Bradesco BBI; JCP segue regular. A operação defensiva sofre menos com a eleição. Reforça a recomendação, com atenção ao preço de eventual aquisição.",
+   "cenarios": {
+    "base": "Fluxo de caixa estável e recompras mantêm retorno ao acionista.",
+    "otimista": "Aquisição da Vero acrescenta fibra com sinergias.",
+    "pessimista": "Aquisição cara ou competição em fibra reduz a distribuição."
+   },
+   "gatilhos": [
+    "Preço da Vero acima de 8x EBITDA",
+    "Redução do guidance de remuneração ao acionista",
+    "Perda de clientes pós-pagos"
+   ],
+   "at": "2026-10-31"
+  },
+  "WEGE3": {
+   "leitura": "Lucro de R$ 1,67 bi no 3T26 com demanda de data centers nos EUA, mas a ação caiu após o balanço; Itaú BBA elevou o preço-alvo e vê ponto de entrada. Aquisição da PCS (L&S) e investimentos em geradores e baterias ampliam receita em dólar, que se beneficia do câmbio. Reforça o papel de crescimento.",
+   "cenarios": {
+    "base": "Crescimento externo e câmbio alto sustentam lucro.",
+    "otimista": "Ciclo de data centers e transmissão acelera a carteira de pedidos.",
+    "pessimista": "Desaceleração industrial e margens menores por custo de expansão."
+   },
+   "gatilhos": [
+    "Margem EBITDA abaixo de 20%",
+    "Queda na carteira de pedidos de T&D",
+    "Tarifas dos EUA atingindo as fábricas locais"
+   ],
+   "at": "2026-10-31"
+  },
+  "ABCB4": {
+   "leitura": "Aumento de capital homologado, recompra aprovada e emissão de letras perpétuas reforçam o capital do ABC; incluído em listas de ações para 2027. A Selic alta por mais tempo ajuda a margem, mas eleva risco de crédito em empresas médias. Recomendação mantida.",
+   "cenarios": {
+    "base": "Crescimento moderado da carteira com ROE estável.",
+    "otimista": "Ciclo de crédito corporativo favorável e reprecificação do P/VP.",
+    "pessimista": "Inadimplência em empresas médias com economia fraca."
+   },
+   "gatilhos": [
+    "Custo de crédito acima de 1,5% da carteira",
+    "Índice de Basileia abaixo de 14%",
+    "ROE abaixo de 15%"
+   ],
+   "at": "2026-10-31"
+  },
+  "CMIG4": {
+   "leitura": "O governador eleito Cleitinho indicou Otto Levy para presidir a Cemig e promete reduzir a tarifa; a indicação teve boa recepção, mas a promessa reacende o risco político. A prorrogação da UHE Sá Carvalho e o rating AAA.br são positivos. Enfraquece a recomendação até a nova gestão definir dividendos e tarifas.",
+   "cenarios": {
+    "base": "Nova gestão técnica mantém política de dividendos.",
+    "otimista": "Privatização ou federalização volta à pauta e destrava valor.",
+    "pessimista": "Uso da companhia para reduzir tarifas e cortar dividendos."
+   },
+   "gatilhos": [
+    "Mudança na política de dividendos",
+    "Medidas de redução tarifária bancadas pela empresa",
+    "Composição do novo conselho",
+    "Investimentos acima do plano"
+   ],
+   "at": "2026-10-31"
+  },
+  "ISAE4": {
+   "leitura": "A ISA Energia aparece entre empresas com lucro em queda e dívida alta, enquanto busca crescer com a demanda de data centers; JCP trimestral segue. Juros altos pressionam a alavancagem. Mantém a recomendação, com margem de segurança menor.",
+   "cenarios": {
+    "base": "Receita indexada e JCP trimestral estáveis.",
+    "otimista": "Novos reforços e leilões com bom retorno elevam a receita.",
+    "pessimista": "Dívida maior e juros altos reduzem a distribuição."
+   },
+   "gatilhos": [
+    "Dívida/EBITDA acima de 4x",
+    "Corte no JCP trimestral",
+    "Atraso em obras de reforço"
+   ],
+   "at": "2026-10-31"
+  },
+  "TIMS3": {
+   "leitura": "A Poste Italiane, nova controladora da Telecom Italia, disse que a TIM Brasil não é estratégica e pode vender o controle; o conselho aprovou incorporar a I-Systems (R$ 1,6 bi). A venda pode trazer prêmio ou incerteza sobre a política de dividendos. Recomendação mantida, com atenção ao novo controlador.",
+   "cenarios": {
+    "base": "Operação segue gerando caixa e remunerando acionistas.",
+    "otimista": "Venda do controle com prêmio ou consolidação do setor.",
+    "pessimista": "Comprador alavancado reduz dividendos ou investimentos."
+   },
+   "gatilhos": [
+    "Anúncio de processo de venda do controle",
+    "Mudança no guidance de remuneração",
+    "Sinergias da I-Systems abaixo do esperado"
+   ],
+   "at": "2026-10-31"
+  },
+  "TGMA3": {
+   "leitura": "A ação devolveu cerca de 30% após o topo de 23/10 com a queda do mercado pós-eleição. A empresa aprovou investimentos de R$ 52 milhões até 2027. Os proventos de 2025 incluíram dividendo sobre lucros retidos, então o DY histórico superestima o recorrente. Recomendação mantida, com DY normalizado menor.",
+   "cenarios": {
+    "base": "Volumes de veículos estáveis e caixa líquido sustentam proventos.",
+    "otimista": "Retomada das vendas de veículos e novos contratos logísticos.",
+    "pessimista": "Queda nas vendas de veículos com juros altos."
+   },
+   "gatilhos": [
+    "Vendas de veículos caindo dois meses seguidos",
+    "Fim do caixa líquido",
+    "Payout abaixo de 70%"
+   ],
+   "at": "2026-10-31"
+  },
+  "BRSR6": {
+   "leitura": "O rali após o 1º turno se desfez e a ação caiu mais de 30% desde o topo de 09/10; como estatal gaúcha, sofre com o risco político e já tinha revisado o guidance de 2026 no 2T26. JCP do 3T26 mantido. Reforça a decisão das revisões de deixá-la fora ou com peso baixo.",
+   "cenarios": {
+    "base": "Lucro estável e JCP trimestral mantêm DY alto.",
+    "otimista": "Execução acima do guidance revisado e P/VP voltando a 0,6x.",
+    "pessimista": "Inadimplência no agro e interferência do controlador."
+   },
+   "gatilhos": [
+    "Nova revisão do guidance",
+    "Inadimplência acima de 4%",
+    "Mudança na política de JCP"
+   ],
+   "at": "2026-10-31"
+  },
+  "DIRR3": {
+   "leitura": "A prévia do 3T26 mostrou vendas mais fracas e a ação caiu mais de 30% desde o topo; JPMorgan ainda destaca Direcional no Minha Casa Minha Vida, mesmo com a alta dos juros. Os proventos de 2025 incluíram extraordinários. Enfraquece a recomendação para renda.",
+   "cenarios": {
+    "base": "MCMV sustenta lançamentos e lucro.",
+    "otimista": "Ampliação do MCMV e queda dos juros futuros.",
+    "pessimista": "Juros altos e restrição de funding reduzem vendas e dividendos."
+   },
+   "gatilhos": [
+    "VSO abaixo de 20%",
+    "Mudanças nas faixas do MCMV",
+    "Juros futuros longos acima de 15%"
+   ],
+   "at": "2026-10-31"
+  },
+  "CXSE3": {
+   "leitura": "A rescisão com o Banco Pan rende multa de R$ 750 milhões (ganho de R$ 210 milhões em 2026), e o Citi recomenda compra após a eleição; ainda assim, análises alertam para risco de preço e dependência da Caixa. Mantém a recomendação, com o extraordinário inflando o DY de 2026.",
+   "cenarios": {
+    "base": "Canal Caixa mantém crescimento de prêmios.",
+    "otimista": "Juros altos e novos produtos ampliam lucro.",
+    "pessimista": "Interferência do controlador estatal ou perda de canais."
+   },
+   "gatilhos": [
+    "Mudança no acordo com a Caixa",
+    "Prêmios caindo dois meses seguidos",
+    "Payout abaixo de 80%"
+   ],
+   "at": "2026-10-31"
+  }
+ }
+}
