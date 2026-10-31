@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "30 21 * * 1-5"   # 18:30 em Brasília, após o fechamento da B3
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["collect.py", "universe.json", "requirements.txt", ".github/workflows/collect.yml"]
 
 permissions:
   contents: write
