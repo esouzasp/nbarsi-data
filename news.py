@@ -55,14 +55,16 @@ QUERY = {
 # termos que a manchete precisa conter para valer para o ativo (além do radical do ticker)
 TERMS = {"VBBR3": ["vibra energia"], "UNIP6": ["unipar carbocloro", "unipar ("], "B3SA3": ["b3 (", "a b3 ", "da b3 "],
          "TIMS3": ["tim "], "VALE3": ["vale (", "vale "], "WEGE3": ["weg"], "ISAE4": ["isa energia", "isa cteep", "cteep"],
-         "AXIA3": ["axia", "eletrobras"], "BRSR6": ["banrisul ("], "PSSA3": ["porto seguro", "porto ("]}
-NOISE = re.compile(r"resultados, dividendos, cota[çc][ãa]o e indicadores|cota[çc][ãa]o e indicadores|cianorte", re.I)
+         "AXIA3": ["axia", "eletrobras"], "BRSR6": ["banrisul ("], "PSSA3": ["(pssa", "porto seguro (", "seguradora porto", "porto seguro lucr", "porto seguro registr", "ações da porto"]}
+NOISE = re.compile(r"resultados, dividendos, cota[çc][ãa]o e indicadores|cota[çc][ãa]o e indicadores|cianorte|aten[çc][ãa]o para o call|undime|\(\w{11}\)\s*$", re.I)
 
 
 def relevant(title: str, t: str, name: str) -> bool:
     low = title.lower()
     if NOISE.search(title):
         return False
+    if t in TERMS:  # nomes ambíguos: só o ticker completo ou os termos específicos valem
+        return any(x in low for x in [t.lower()] + TERMS[t])
     terms = [t.lower(), t[:4].lower()] + (TERMS.get(t) or [w.lower() for w in name.replace("(", " ").split() if len(w) >= 4][:1])
     return any(x in low for x in terms)
 MACRO_Q = {
