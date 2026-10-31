@@ -109,6 +109,31 @@ def history_for(ticker: str, aliases: list[str]):
     return None, None, None
 
 
+def merge_alias_dividends(divs: pd.Series, used: str, names: list[str]):
+    """Preenche anos sem proventos no ticker atual com os do ticker antigo (troca de código ou unificação de classes)."""
+    merged = []
+    for alt in names:
+        if alt == used:
+            continue
+        try:
+            ha = yf.Ticker(f"{alt}.SA").history(start=START.isoformat(), interval="1d", auto_adjust=False, actions=True)
+        except Exception:
+            continue
+        if ha is None or ha.empty or "Dividends" not in ha:
+            continue
+        da = ha["Dividends"][ha["Dividends"] > 0]
+        if da.empty:
+            continue
+        da.index = pd.to_datetime(da.index).tz_localize(None).normalize()
+        have = set(divs.index.year) if not divs.empty else set()
+        fill = da[~da.index.year.isin(list(have))]
+        if not fill.empty:
+            divs = pd.concat([divs, fill]).sort_index()
+            divs = divs[~divs.index.duplicated(keep="first")]
+            merged.append(f"{alt}: {sorted(set(fill.index.year))}")
+    return divs, merged
+
+
 def dividend_stats(divs: pd.Series, price: float | None) -> dict:
     """Proventos por ação (data-com), por ano civil e últimos 12 meses."""
     today = pd.Timestamp.today().normalize()
@@ -184,6 +209,7 @@ def collect_asset(a: dict, grid) -> dict:
     close = h["Close"].dropna()
     price = float(close.iloc[-1])
     divs = h["Dividends"][h["Dividends"] > 0] if "Dividends" in h else pd.Series(dtype=float)
+    divs, merged = merge_alias_dividends(divs, used, [a["ticker"], *a.get("aliases", [])])
     adj = h["Adj Close"].dropna() if "Adj Close" in h else close
     r12 = None
     one_year = close.index[-1] - pd.DateOffset(years=1)
@@ -200,6 +226,7 @@ def collect_asset(a: dict, grid) -> dict:
         "ret_12m_total": clean(r12),
         "liquidez_media_3m": clean(liq, 0),
         "close": on_grid(close, grid),
+        "divs_merged_from": merged,
         "divs": [[d.date().isoformat(), clean(v, 6)] for d, v in divs.items()
                  if d >= grid[0]],
     }
