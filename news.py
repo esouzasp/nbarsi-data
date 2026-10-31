@@ -408,7 +408,7 @@ def build():
         "feed": raw.get("feed") or [], "cvm_proventos": raw.get("cvm_proventos") or {}, "cvm_map": raw.get("cvm_map") or {},
         "macro": raw.get("macro") or {}, "macro_dates": raw.get("macro_dates") or [], "agenda": ag,
         "inflections": raw.get("inflections") or {}, "timeline": events, "episodios": tl.get("episodios") or [],
-        "curated": {k: cur.get(k) for k in ("items", "inflections", "suggestions", "summary", "updated_at")},
+        "curated": {k: cur.get(k) for k in ("items", "inflections", "suggestions", "summary", "assets", "updated_at")},
         "errors": raw.get("errors") or [], "sources": {
             "cvm": "CVM, dados abertos (IPE e FCA)", "manchetes": "Google Notícias (RSS), últimos 7 dias por ativo",
             "macro": "Banco Central (SGS 432, 13522, 1) e Yahoo Finance (BZ=F, TIO=F)",
@@ -443,6 +443,11 @@ def main():
         prov = old.get("cvm_proventos") or {}
     hl = headlines(uni, errors)
     feed = merge_feed(old.get("feed") or [], cfeed + hl)
+    names = {a["ticker"]: a["name"] for a in uni["assets"]}
+    for it in feed:  # revalida os tickers das manchetes (inclusive as acumuladas de coletas anteriores)
+        if it.get("kind") == "manchete":
+            it["tickers"] = [t for t in it.get("tickers", []) if relevant(it.get("title", ""), t, names.get(t, t))]
+    feed = [it for it in feed if it.get("kind") != "manchete" or it["tickers"]]
     raw = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "feed": feed, "cvm_proventos": prov, "cvm_map": tmap or old.get("cvm_map") or {},
