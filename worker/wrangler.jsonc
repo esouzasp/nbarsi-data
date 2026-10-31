@@ -1,0 +1,7 @@
+{
+  // Decifrador do contexto do nBarsi (Cloudflare Worker). Deploy pelo Workers Builds com diretório raiz "worker".
+  "name": "nbarsi",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true
+}
