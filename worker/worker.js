@@ -31,6 +31,7 @@ export default {
     const m = path.match(/^\/k\/([A-Za-z0-9_-]{43})(\/.*)?$/);
     if (m) { key = m[1]; path = m[2] || "/contexto"; }
     if (path === "/" || path === "") return reply("nBarsi: use /contexto?chave=SUA_CHAVE");
+    if (path === "/versao") return reply("nbarsi-worker 2 (html padrão)");
     if (!/^\/contexto(\.json|\.md)?$/.test(path)) return reply("não encontrado", 404);
     if (!key || !/^[A-Za-z0-9_-]{43}$/.test(key)) return reply("chave ausente ou inválida", 401);
 
