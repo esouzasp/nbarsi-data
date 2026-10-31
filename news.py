@@ -56,7 +56,7 @@ QUERY = {
 TERMS = {"VBBR3": ["vibra energia"], "UNIP6": ["unipar carbocloro", "unipar ("], "B3SA3": ["b3 (", "a b3 ", "da b3 "],
          "TIMS3": ["tim "], "VALE3": ["vale (", "vale "], "WEGE3": ["weg"], "ISAE4": ["isa energia", "isa cteep", "cteep"],
          "AXIA3": ["axia", "eletrobras"], "BRSR6": ["banrisul ("], "PSSA3": ["(pssa", "porto seguro (", "seguradora porto", "porto seguro lucr", "porto seguro registr", "ações da porto"]}
-NOISE = re.compile(r"resultados, dividendos, cota[çc][ãa]o e indicadores|cota[çc][ãa]o e indicadores|cianorte|aten[çc][ãa]o para o call|undime|\(\w{11}\)\s*$", re.I)
+NOISE = re.compile(r"resultados, dividendos, cota[çc][ãa]o e indicadores|cota[çc][ãa]o e indicadores|cianorte|aten[çc][ãa]o para o call|undime|\([A-Za-z0-9_-]{8,12}\)\s*$", re.I)
 
 
 def relevant(title: str, t: str, name: str) -> bool:
